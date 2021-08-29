@@ -1,0 +1,11 @@
+Challenge instance ready at 193.57.159.27:25807. Click here to request a new instance.
+
+Why not try out the newest anarchy server in Minecraft (Paper 1.17.1 Latest, openjdk:16)?
+
+We're pretty sure this code is running on the server reading the server log files:
+
+tail --follow /app/logs/latest.log --retry 2>/dev/null | { 
+        while read line; do
+            echo $line | grep -P --color=none "^\[\d+:\d+:\d+ INFO\]: <RACTFAdmin> \!exec" | cut -d'!' -f2 | cut -d' ' -f2- | bash --restricted &
+        done
+    }

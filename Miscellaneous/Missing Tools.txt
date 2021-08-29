@@ -1,0 +1,7 @@
+Challenge instance ready at 193.57.159.27:59171. Click here to request a new instance.
+
+Man, my friend broke his linux install pretty darn bad. He can only use like, 4 commands. Can you take a look and see if you can recover at least some of his data?
+
+Username: ractf
+Password: 8POlNixzDSThy
+Note: it may take a minute or more for your container to start depending on load
